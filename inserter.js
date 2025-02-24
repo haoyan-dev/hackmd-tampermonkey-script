@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      0.0.1
 // @description  Insert current time into HackMD editor with a shortcut.
-// @author       You
+// @author       Haoyan.Li
 // @match        https://hackmd.io/*
 // @grant        none
 // @license      MIT
