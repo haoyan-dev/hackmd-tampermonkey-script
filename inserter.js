@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         HackMD Timestamp Inserter
 // @namespace    http://tampermonkey.net/
-// @version      0.0.1
+// @version      0.0.2
 // @description  Insert current time into HackMD editor with a shortcut.
 // @author       Haoyan.Li
 // @match        https://hackmd.io/*
@@ -13,8 +13,8 @@
     'use strict';
 
     // --- Configuration ---
-    const shortcutKey = 'ctrl+shift+1'; // Change this to your desired shortcut
-    const dateFormat = '%Y-%m-%d %H:%M:%S';  // Customize the date/time format (see strftime below)
+    const shortcutKey = 'ctrl+alt+t'; // Change this to your desired shortcut
+    const dateFormat = '%Y-%m-%d';  // Customize the date/time format (see strftime below)
 
     // --- Helper Functions ---
 
